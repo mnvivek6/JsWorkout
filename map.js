@@ -52,3 +52,12 @@ const result = a.map((x)=>{
 })
 
 console.log(result);
+
+const b=[3,4,5,6,7,8,9]
+
+
+const resultt = b.map((x)=>{
+    return x+1
+})
+
+console.log(resultt);
