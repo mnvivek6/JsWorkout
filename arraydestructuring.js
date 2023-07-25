@@ -34,3 +34,11 @@ console.log(a2);
 console.log(a3);
 console.log(a4);
 console.log(a5);
+
+let bikes =['duke','gt','bullet','ninja','h2']
+
+let [one,two,three,four,five]=bikes
+
+console.log(one);
+console.log(two);
+console.log(three);

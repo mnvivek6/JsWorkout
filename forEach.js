@@ -14,12 +14,15 @@ const obj=[{
    
 },
 {
+    name:'rahul',
     job:'developer',
 company:'google'
 }
 ]
 
- obj.filter
+ const result = obj.forEach(element => {
+    console.log(element.name);
+ });
 
  
 

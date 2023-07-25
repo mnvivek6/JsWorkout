@@ -12,3 +12,14 @@ x(function () {
      
     console.log("y");
 })
+
+
+function su(y) {
+    
+    console.log('su');
+y()
+}
+
+su(function () {
+    console.log('hail');
+})

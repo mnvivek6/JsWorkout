@@ -1,8 +1,12 @@
-function a(){
-    function b(){
-        console.log('b')
+function a(d){
+    b(10)
+    function b(e){
+        c(10)
+       function c(f) {
+        console.log(d+e+f); 
+       }
     }
-    console.log('a')
-    return 10
+  
+   
 }
-a()
+a(10)

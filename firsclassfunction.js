@@ -1,19 +1,19 @@
-a()
-b()
+// a()
+// b()
 // fuction statement fuction declaration 
 
-function a() {
+// function a() {
 
-    console.log(" a called ");
+//     console.log(" a called ");
     
-}
+// }
 
 // function expression 
 
-var b= function(){
+// var b= function(){
 
-    console.log( "b called ");
-}
+//     console.log( "b called ");
+// }
 // we cant access this type of fuction even befor intialize it 
 
 
@@ -21,10 +21,10 @@ var b= function(){
 
 // parameters and arguments
 
-function x(para1,para2){
+ const x =  function (para1,para2){
 
-    console.log(para1,para2);
+    console.log(para1+para2);
 }
 
-a ()
+
 x(3,5)

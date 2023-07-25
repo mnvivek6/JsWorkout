@@ -20,14 +20,33 @@
 // });
 
 
+// const express = require('express')
+// const app = express()
+
+// app.get('/',(req,res)=>{
+// res.send('<h1>Am vivek <h1>')
+// })
+
+// const port = 3000;
+// app.listen(port,()=>{
+//     console.log('server is runing');
+// })
+
+
 const express = require('express')
+
 const app = express()
 
+const hi= [{
+    name:'vivek'
+},{
+    name:'dora'
+},{
+    name:'sama'
+}]
+
 app.get('/',(req,res)=>{
-res.send('<h1>Am vivek <h1>')
+    res.send(hi)
 })
 
-const port = 3000;
-app.listen(port,()=>{
-    console.log('server is runing');
-})
+app.listen(3000)

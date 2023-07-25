@@ -56,10 +56,18 @@
 // console.log(result);
 
 
-const a = [1,2,3,4,5,6]
+// const a = [1,2,3,4,5,6]
 
-const result = a.filter((x)=>{
-    return x%2==0
+// const result = a.filter((x)=>{
+//     return x%2==0
+// })
+
+// console.log(result);
+
+const array=[1,2,3,4,5,6,7,8,9,10]
+
+const result = array.filter((x)=>{
+  return  x%2==0
 })
 
 console.log(result);

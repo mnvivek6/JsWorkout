@@ -1,21 +1,31 @@
 
-const sulo= 5
-
-function name() {
-
- const sulo = 6
-    console.log(sulo);
-}
-name()
-console.log(sulo);
+// let a=100
 
 
- let a = (value)=>value+5
- 
- console.log(a(5));
+// {
+//     let a = 10
+//     const b=20
+//     var c= 30
+// }
+
+// console.log(a);
+
+
+// const c = 100
+
+// function name(params) {
     
+//     const c = 10
+//     console.log(c);
+// }
+
+// name()
+
+// console.log(c);
 
 
-
-
+// let a = 100
+// {
+//     var a= 20;
+// }     syntax Error idntifier 'a ' has already been declaaared
 

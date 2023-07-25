@@ -6,4 +6,6 @@
  function y(v) {
     return v(v)
  }
- y()
+ y(x)
+
+

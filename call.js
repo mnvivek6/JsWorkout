@@ -1,13 +1,16 @@
-function sayHello(message) {
-    console.log(message + " " + this.name);
+
+function hi(message) {
+
+console.log(message,'',this.name);
 }
-  
-  const person = { name: "John" };
-  
-  sayHello.call(person, "Hello" ,"hi"); 
 
-  sayHello.apply(person,['hi wher are yoiu am here i want to see you'])
+const person={name:'mnvivek'}
 
-  const binding= sayHello.bind(person,"lilly")
+hi.call(person,'ahehhe')
 
-  binding()
+hi.apply(person,['dfsofd slfjsdofs dfsodfds '])
+
+const bind = hi.bind(person,'fjsdfsdfsdfdsfsfds dsfdsfd')
+  bind()
+
+
