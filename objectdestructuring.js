@@ -53,17 +53,29 @@
 // console.log(work);
 // console.log(qualific);
 
-let sulo = {
+// let sulo = {
 
-    name:'abu',
-    job:'developer',
-    company:'jsw'
+//     name:'abu',
+//     job:'developer',
+//     company:'jsw'
+// }
+
+// let { name,job,company}=sulo
+
+// console.log(name);
+// console.log(job);
+// console.log(company);
+
+
+let sulo = {
+    name:'samu',
+    job:'andikada',
+    company:'andicompany'
 }
 
-let { name,job,company}=sulo
+let {name,job,company}=sulo
 
 console.log(name);
 console.log(job);
 console.log(company);
-
 

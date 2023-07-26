@@ -1,11 +1,5 @@
-const me=['mn','vivek']
+const a = [ 1,2,3,4,5,6,7]
 
-me.push('developer','porsche')
-console.log(me);
-
-
-const a=[1,2,3,4,5,6]
-
-a.push(2,3,4)
+a.push(1,2,3,4,5)
 
 console.log(a);
