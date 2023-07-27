@@ -19,14 +19,31 @@
 //        a()
 // }
 
-function countDown(number) {
-    if (number===0) { 
-      console.log("Done!");
-    } else {
-      console.log(number);
-      countDown(number-1); 
-    }
+// function countDown(number) {
+//     if (number===0) { 
+//       console.log("Done!");
+//     } else {
+//       console.log(number);
+//       countDown(number-1); 
+//     }
+//   }
+  
+//   countDown(6); 
+  const a = [ 1,2,3,4,5,6,7,8]
+
+  // const result = Math.max(... a)
+
+  // console.log(result);
+
+
+function name(count) {
+  
+  if (count===0) {
+    console.log('done');
+  }else{
+    console.log(count);
+    name(count-1)
   }
-  
-  countDown(6); 
-  
+}
+
+name(5)
