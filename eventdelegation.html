@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Delegation Example</title>
+  <style>
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      cursor: pointer;
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .highlight {
+      background-color: yellow;
+    }
+    
+   
+  </style>
+  
+</head>
+<body>
+
+<!-- <ul id="parentList">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li>Item 4</li>
+  
+</ul> -->
+<ul id="childList">
+    <li>Add Item1</li>
+    <li>Add Item2</li>
+    <li>Add Item3</li>
+    <li>Add Item4</li>
+</ul>
+
+<script>
+    var childList = getElementById('chilList')
+    childList.addEventListener('click',function (event) {
+        console.log(event);
+        if (event.target.tagName === 'li') {
+            event.target.classList.toggle('highlight')
+        }
+    })
+</script>
+<script>
+  // Get the parent element (common ancestor)
+//   var parentList = document.getElementById('parentList');
+
+//   // Add a single event listener to the parent element
+//   parentList.addEventListener('click', function(event) {
+//     // Check if the clicked element is an <li> element
+//     if (event.target.tagName === 'LI') {
+//       // Do something with the clicked <li> element
+//       event.target.classList.toggle('highlight');
+//     }
+//   });
+</script>
+
+</body>
+</html>

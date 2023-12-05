@@ -25,20 +25,21 @@
 // console.log(cc2)
 // console.log(cc3)
 
-let cars=['porsche','bugatti','lamborgini','ferrari','pagani','mclaren']
+// let cars=['porsche','bugatti','lamborgini','ferrari','pagani','mclaren']
 
-let [a1,a2,a3,a4,a5,a7,a8]=cars
+// let [a1,a2,a3,a4,a5,a7,a8]=cars
+
+// console.log(a1);
+// console.log(a2);
+// console.log(a3);
+// console.log(a4);
+// console.log(a5);
+
+const array =['one','two','three','four']
+
+let [a1,a2,a3,a4] = array
 
 console.log(a1);
-console.log(a2);
-console.log(a3);
-console.log(a4);
-console.log(a5);
 
-let bikes =['duke','gt','bullet','ninja','h2']
 
-let [one,two,three,four,five]=bikes
 
-console.log(one);
-console.log(two);
-console.log(three);

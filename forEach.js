@@ -7,24 +7,34 @@
 // })
 
 
-const obj=[{
+// const obj=[{
 
-    name:'vivek',
-    place:'manjeri',
+//     name:'vivek',
+//     place:'manjeri',
+//     company:'amazon'
    
-},
-{
-    name:'rahul',
-    job:'developer',
-company:'google'
-}
-]
+// },
+// {
+//     name:'rahul',
+//     job:'developer',
+// company:'google'
+// }
+// ]
 
- const result = obj.forEach(element => {
-    console.log(element.name);
- });
+//  const result = obj.forEach(element => {
+//     console.log(element.name);
+//     console.log(element.company);
+//  });
 
  
 
- 
+// / const array =[
+//     1,2,3,4,5
+//  ]
+
+//  array.forEach(Element=>{
+//     console.log(Element);
+//  })
+
+
 

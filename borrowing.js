@@ -25,8 +25,6 @@ let obj ={
 
 let object={
     name:'2'
-
-
 }
 
 obj.func.call(object)
