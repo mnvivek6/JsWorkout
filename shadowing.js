@@ -1,14 +1,21 @@
+"use strict";
 
-// let a=100
+let a=100
 
 
-// {
-//     let a = 10
-//     const b=20
-//     var c= 30
-// }
+{
+    
+    let a = 10
+    const b=20
+    var c= 30
+    
+}
 
-// console.log(a);
+ 
+let names=(a,b)=> a+b
+console.log(a);
+
+
 
 
 // const c = 100
