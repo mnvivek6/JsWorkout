@@ -1,7 +1,7 @@
 
 
 const promises = [
-    Promise.resolve(),
+    Promise.resolve('suc'),
     Promise.reject('Error 1'),
     Promise.resolve('Success 2'),
     Promise.reject('Error 2')

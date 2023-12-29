@@ -61,3 +61,19 @@ async function getuser() {
 }
 
 getuser()
+
+
+
+// const name=()=>{
+//      new Promise((resolve, reject) => {
+//         setTimeout(()=>{
+//          resolve('hi')
+//         },2000)
+//      })
+// }
+
+// async function user (){
+//   let nam = await name()
+//   console.log(nam);
+// }
+// user()

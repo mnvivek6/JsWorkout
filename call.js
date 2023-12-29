@@ -7,9 +7,9 @@ const person={name:'mnvivek'}
 
 hi.call(person,'saif')
 
-// hi.apply(person,['dfsofd slfjsdofs dfsodfds '])
+hi.apply(person,['dfsofd slfjsdofs dfsodfds '])
 
-// const bind = hi.bind(person,'fjsdfsdfsdfdsfsfds dsfdsfd')
-//   bind()
+const bind = hi.bind(person,'fjsdfsdfsdfdsfsfds dsfdsfd')
+  bind()
 
 

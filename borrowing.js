@@ -15,7 +15,7 @@
 // }
 // object1.func.call(object2)
 
-let obj ={
+let object1 ={
 
     name:'ammini',
     func:function(){
@@ -23,8 +23,9 @@ let obj ={
     }
 }
 
-let object={
-    name:'2'
-}
+// let object={
+//     name:'object 2'
+// }
 
-obj.func.call(object)
+ let b= object1.func
+ b()

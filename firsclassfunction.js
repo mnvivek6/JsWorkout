@@ -2,18 +2,18 @@
 // b()
 // fuction statement fuction declaration 
 
-// function a() {
+function a() {
 
-//     console.log(" a called ");
+    console.log(" a called ");
     
-// }
+}
 
 // function expression 
 
-// var b= function(){
+var b= function(){
 
-//     console.log( "b called ");
-// }
+    console.log( "b called ");
+}
 // we cant access this type of fuction even befor intialize it 
 
 

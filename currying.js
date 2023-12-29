@@ -1,12 +1,12 @@
-function a(d){
-    b(10)
-    function b(e){
-        c(10)
-       function c(f) {
-        console.log(d+e+f); 
-       }
-    }
-  
-   
+// Curried version
+function curryAdd(x) {
+    return function(y) {
+        return function(z) {
+            return x + y + z;
+        };
+    };
 }
-a(10)
+
+// Using the curried function
+const curriedAdd = curryAdd(1)(2)(3);
+console.log(curriedAdd); 

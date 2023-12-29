@@ -28,13 +28,13 @@
 
  
 
-// / const array =[
-//     1,2,3,4,5
-//  ]
+const array =[
+    1,2,3,4,5
+ ]
 
-//  array.forEach(Element=>{
-//     console.log(Element);
-//  })
+ array.forEach(Element=>{
+    console.log(Element);
+ })
 
 
 
