@@ -36,14 +36,15 @@
   // console.log(result);
 
 
-function name(count) {
-  
-  if (count===0) {
-    console.log('done');
-  }else{
-    console.log(count);
-    name(count-1)
+  function fibonacci(n) {
+    if (n <= 1) {
+      return n;
+    } else {
+      return fibonacci(n - 1) + fibonacci(n - 2);
+    }
   }
-}
-
-name(5)
+  
+  // Example usage
+  const result = fibonacci(5);
+  console.log(result);
+  
