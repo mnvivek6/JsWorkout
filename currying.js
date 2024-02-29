@@ -9,4 +9,4 @@ function curryAdd(x) {
 
 // Using the curried function
 const curriedAdd = curryAdd(1)(2)(3);
-console.log(curriedAdd); 
+console.log(curriedAdd); w

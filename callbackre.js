@@ -107,8 +107,6 @@ function multiple(e, f, call) {
 }
 multiple(3, 8, ((result) => {
     console.log(result);
-}),4,5,((resu)=>{
-    console.log(resu);
 }))
 
 

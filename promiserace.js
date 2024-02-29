@@ -10,7 +10,7 @@ function sum(num1, num2) {
             if (sum) {
                 resolve(sum)
             } else {
-                reject('1false')
+                reject('rejected')
             }
         }, 3000);
     })
@@ -25,7 +25,7 @@ function multiple(a, b) {
                 resolve(sum)
             } else {
 
-                reject('2false')
+                reject('rejected')
             }
         }, 2000);
 
